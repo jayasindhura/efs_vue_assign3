@@ -1,8 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="blue">
-      <!--<v-toolbar-title >Eagle Finance Services</v-toolbar-title>-->
-      <v-toolbar-title style="cursor: pointer" @click="$router.push('/')" >Eagle Finance Services</v-toolbar-title>
+      <v-toolbar-title >Eagle Finance Services</v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="hidden-xs-only">
         <v-btn
